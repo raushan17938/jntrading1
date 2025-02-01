@@ -1,0 +1,526 @@
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.head1, .para1, .head2, .container_list, .person-image, .prod-hd1, #ser-head, .ser-img, .ser-p {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+
+.whatsApp_icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right of the viewport */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .whatsApp_icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+
+.navbar-brand{
+    font-weight: 900;
+    color: #fff;
+}
+
+#offcanvasNavbarLabel{
+    font-weight: 900;
+    color: black;
+}
+.nav-bg{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.d-block{
+    height: 100vh;
+    width: 100vh;
+}
+
+#preloader{
+    background: #fff url("./assets/preloader-unscreen.gif") no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+/* .style-h1{
+    color: white;
+    font-size: 7rem;
+    font-weight: 900;
+} */
+
+/* .style-h2{
+    color: rgb(43, 255, 0);
+    font-size: 2rem;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+
+/* .caro-text{
+    margin-bottom: 150px;
+    backdrop-filter: blur(2px);
+} */
+
+/* .but{
+    background-color: blue;
+}
+
+.product-heading{
+    font-weight: 700;
+    text-align: center;
+} */
+
+.whatsApp_icon{
+    height: 60px;
+    width: 60px;
+    padding-bottom: 10px;
+    
+}
+
+.facebook_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.instagram_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.twitter_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.email-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-item:hover{
+    background-color: white;
+    transform: scale(1.05);
+    color: #fff;
+    font-weight: 900;
+}
+/* .nav-link{
+    color: white !important;
+} */
+
+/* .nav-link:hover{
+    color: black !important;
+} */
+
+.welcome{
+    /* background-color: rgba(110, 23, 190, 0.89); */
+    color: #fff;
+    /* border-radius: 15px; */
+}
+
+.head1{
+    color: #fff;
+    font-size: 7rem;
+}
+
+.map{
+    height: 450px;
+    width: 600px;
+    
+} 
+
+.footer-bg{
+    background-color: black;
+}
+
+.footer-links-above{
+    padding-left: 30%;
+    color: #fff;
+}
+
+
+.footer-links{
+    padding-left: 40%;
+    color: #fff;
+}
+
+.text-white {
+    color: white !important;
+  } 
+  
+   .text-white:hover{
+    background-color: white;
+    transform: scale(1.05);
+    color: black !important;
+    font-weight: 900;
+}
+
+/* .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .intro-section{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(22, 24, 71, 0.97);
+  }
+
+  #jn-trading{
+    color: rgb(189, 14, 96);
+  } */
+
+
+
+  /* .intro-div{
+    display: flex;
+  }
+
+  .person-image{
+    float: right;
+    width: 600px;
+    height: 400px;
+    padding-right: 10%;
+    
+  }
+
+  
+.para1{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 600;
+
+} */
+
+
+  @media (max-width: 377px){
+    /* .style-h1{
+        color: white;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+     */
+   
+  }
+
+
+
+
+  
+@media (min-width: 319px) and (max-width: 767px){
+
+    @keyframes appear{
+        from{
+            opacity: 0;
+            scale: 0.5;
+        }
+        to{
+            opacity: 1;
+            scale: 1;
+        }
+    }
+    
+    .head1, .para1, .head2, .container_list, .person-image, .prod-hd1, #ser-head, .ser-img, .ser-p {
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
+    }
+    
+    .navbar-brand{
+        font-weight: 900;
+        color: #fff;
+    }
+    
+    #offcanvasNavbarLabel{
+        font-weight: 900;
+        color: black;
+    }
+    .nav-bg{
+        background-color: blueviolet;
+        color: #fff;
+    }
+    
+    .d-block{
+        height: 60vh;
+        width: 100vh;
+    }
+    
+    #preloader{
+        background: #fff url("./assets/preloader-unscreen.gif") no-repeat center center;
+        background-size: 20%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    
+    }
+    
+    /* .style-h1{
+        color: white;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
+    .style-h2{
+        color: rgb(43, 255, 0);
+        font-size: 20px;
+    
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+    }
+     */
+    
+    /* .caro-text{
+        margin-bottom: 50px;
+        backdrop-filter: blur(2px);
+    }
+    
+    .but{
+        background-color: blue;
+    }
+    
+    .product-heading{
+        font-weight: 700;
+        text-align: center;
+    } */
+    
+    .whatsApp_icon{
+        height: 60px;
+        width: 60px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .facebook_icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .instagram_icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .twitter_icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .email-icon{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    
+    
+    .nav-item{
+        padding: 10px;
+    }
+    
+    .nav-item:hover{
+        background-color: white;
+        transform: scale(1.05);
+        color: #fff;
+        font-weight: 900;
+    }
+    /* .nav-link{
+        color: white !important;
+    } */
+    
+    /* .nav-link:hover{
+        color: black !important;
+    } */
+    
+    .welcome{
+        /* background-color: rgba(110, 23, 190, 0.89); */
+        color: #fff;
+        /* border-radius: 15px; */
+    }
+    
+    .head1{
+        color: #fff;
+        font-size: 2rem;
+    }
+    
+    .map{
+        height: 300px ;
+        width: 315px ;
+               
+    } 
+    
+    .footer-bg{
+        background-color: black;
+    }
+    
+    .footer-links-above{
+        padding-left: 10%;
+        color: #fff;
+    }
+    
+    
+    .footer-links{
+        padding-left: 5%;
+        color: #fff;
+    }
+    
+    .text-white {
+        color: white !important;
+      }
+      
+      /* .text-white:hover{
+        background-color: white;
+        transform: scale(1.05);
+        color: black !important;
+        font-weight: 900;
+    } */
+    
+    .kanit-extrabold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .intro-section{
+        width: 100vw; 
+        height: 100vh; 
+        background-color: rgba(22, 24, 71, 0.97);
+      }
+    
+      #jn-trading{
+        color: rgb(189, 14, 96);
+      }
+    
+    
+    
+      .intro-div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+    
+      .person-image{
+        float: right;
+        width: 300px;
+        height: 280px;
+        padding-right: 2%;
+        
+      }
+    
+      
+    .para1{
+        padding: 16px;
+        font-size: 16px;
+        font-weight: normal;
+    
+    }
+    
+    
+    .services-section{
+        width: 100vw; 
+        height: 1450px; 
+        background-color: rgba(22, 24, 71, 0.97);
+      }
+    
+      .services-cont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* align-items: center; */
+        justify-content: center;
+        padding-bottom: 10px;
+        min-height: 1400px; 
+        gap: 20px;
+        color: #fff;
+        margin-bottom: 50px;
+        /* overflow-y: auto; */
+      }
+    
+      .ser-img{
+        height: 150px;
+        width: 150px;
+        background-color: red;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 25%;
+        
+      }
+    
+      #ser-head{
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
+      }
+    
+      
+      .services{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        text-align: center;
+        background-color: red;
+        border-radius: 15px;
+        
+      }
+
+
+
+      #ser-image{
+        margin-top: 10%;
+      }
+    
+
+
+      .whatsApp_icon {
+        width: 50px; /* Adjust size as needed */
+        height: 50px;
+        position: fixed;
+        bottom: 20px; /* Distance from the bottom of the viewport */
+        right: 20px; /* Distance from the right of the viewport */
+        z-index: 1000; /* Ensure it stays on top of other elements */
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .whatsApp_icon:hover {
+        transform: scale(1.1); /* Slight zoom effect on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+      }
+
+}

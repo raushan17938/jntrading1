@@ -1,0 +1,153 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+    /* min-height: 100vh; */
+}
+
+.our_prod{
+    padding-top:100px;
+}
+
+.items{
+    background-color: #FCFAEE;
+    height: 300px;
+    width: 280px;
+    
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+
+   
+    
+}
+
+.prod_img{
+    background-color: aqua;
+    border-radius: 15px;
+    height: 200px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.prod_desc{
+     color: rgb(86, 79, 79);
+}
+
+.prod_name{
+    color: rgb(99, 72, 123);
+}
+
+.items:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px  rgb(108, 54, 159);
+}
+
+.services:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px  rgb(108, 54, 159);
+}
+
+#label_heading{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 430px){
+
+    .prod_img{
+        background-color: aqua;
+        border-radius: 15px;
+        height: 100px;
+        width: 125px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    .items{
+        background-color: #FCFAEE;
+        height: 180px;
+        width: 160px;
+        
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+    .prod_name{
+        color: rgb(99, 72, 123);
+        font-size:15px;
+    }
+
+    .prod_desc{
+        color: rgb(86, 79, 79);
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+   }
+
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1300px){
+
+   
+
+    .prod_img{
+        background-color: aqua;
+        border-radius: 15px;
+        height: 200px;
+        width: 225px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    .items{
+        background-color: #FCFAEE;
+        height: 280px;
+        width: 260px;
+        
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
+    .prod_name{
+        color: rgb(99, 72, 123);
+        font-size:15px;
+    }
+
+    .prod_desc{
+        color: rgb(86, 79, 79);
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+   }
+
+   
+
+}

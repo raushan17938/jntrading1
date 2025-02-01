@@ -1,0 +1,630 @@
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+
+
+.head1, .para1, .head2, .container_list, .person-image, .prod-hd1, #ser-head, .ser-img, .ser-p {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+
+
+.navbar-brand{
+    font-weight: 900;
+    color: #fff;
+}
+
+#offcanvasNavbarLabel{
+    font-weight: 900;
+    color: black;
+}
+.nav-bg{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.d-block{
+    height: 100vh;
+    width: 100vh;
+}
+
+#preloader{
+    background: #fff url("./assets/preloader-unscreen.gif") no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+.style-h1{
+    color: white;
+    font-size: 7rem;
+    font-weight: 900;
+}
+
+.style-h2{
+    color: rgb(43, 255, 0);
+    font-size: 2rem;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.caro-text{
+    margin-bottom: 150px;
+    backdrop-filter: blur(2px);
+}
+
+.but{
+    background-color: blue;
+}
+
+.product-heading{
+    font-weight: 700;
+    text-align: center;
+}
+
+.whatsApp_icon{
+    height: 60px;
+    width: 60px;
+    padding-bottom: 10px;
+    
+}
+
+.facebook_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.instagram_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.twitter_icon{
+    height: 40px;
+    width: 40px;
+}
+
+.email-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-item:hover{
+    background-color: white;
+    transform: scale(1.05);
+    color: #fff;
+    font-weight: 900;
+}
+/* .nav-link{
+    color: white !important;
+} */
+
+/* .nav-link:hover{
+    color: black !important;
+} */
+
+.welcome{
+    /* background-color: rgba(110, 23, 190, 0.89); */
+    color: #fff;
+    /* border-radius: 15px; */
+}
+
+.head1{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.map{
+    height: 450px;
+    width: 600px;
+    
+} 
+
+.footer-bg{
+    background-color: black;
+}
+
+.footer-links-above{
+    padding-left: 30%;
+    color: #fff;
+}
+
+
+.footer-links{
+    padding-left: 40%;
+    color: #fff;
+}
+
+.text-white {
+    color: white !important;
+  }
+  
+  .text-white:hover{
+    background-color: white;
+    transform: scale(1.05);
+    color: black !important;
+    font-weight: 900;
+}
+
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .intro-section{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(101, 104, 194, 0.97);
+  }
+
+  #jn-trading{
+    color: white;
+  }
+
+
+
+  .intro-div{
+    display: flex;
+  }
+
+  .person-image{
+    float: right;
+    width: 600px;
+    height: 400px;
+    padding-right: 10%;
+    
+  }
+
+  
+.para1{
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+
+.services-section{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(101, 104, 194, 0.97);;
+  }
+
+  .services-cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+    height: 100vh; 
+    gap: 30px;
+    color: #fff;
+    /* padding-bottom: 150px; */
+  }
+
+  .ser-img{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #ser-head{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  
+  .services{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 15px;
+    align-items: center;
+  }
+
+  .ser-p{
+    font-size: 20px;
+  }
+
+  .ser-paragraph{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* #ser-image{
+    margin-top: 10%;
+  } */
+
+
+  @media (max-width: 377px){
+    .style-h1{
+        color: white;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    
+    .style-h2{
+        color: rgb(43, 255, 0);
+        font-size: 15px;
+    
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    
+    .caro-text{
+        margin-bottom: 20px;
+        backdrop-filter: blur(2px);
+    }
+
+    .d-block{
+        height: 100vh;
+        width: 100vh;
+    }
+  }
+
+
+
+
+  
+@media (min-width: 319px) and (max-width: 767px){
+
+    @keyframes appear{
+        from{
+            opacity: 0;
+            scale: 0.5;
+        }
+        to{
+            opacity: 1;
+            scale: 1;
+        }
+    }
+    
+    .head1, .para1, .head2, .container_list, .person-image, .prod-hd1, #ser-head, .ser-img, .ser-p {
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
+    }
+    
+    .navbar-brand{
+        font-weight: 900;
+        color: #fff;
+    }
+    
+    #offcanvasNavbarLabel{
+        font-weight: 900;
+        color: black;
+    }
+    .nav-bg{
+        background-color: blueviolet;
+        color: #fff;
+    }
+    
+    .d-block{
+        height: 60vh;
+        width: 100vh;
+    }
+    
+    #preloader{
+        background: #fff url("./assets/preloader-unscreen.gif") no-repeat center center;
+        background-size: 20%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    
+    }
+    
+    .style-h1{
+        color: white;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
+    .style-h2{
+        color: rgb(43, 255, 0);
+        font-size: 20px;
+    
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    
+    .caro-text{
+        margin-bottom: 50px;
+        backdrop-filter: blur(2px);
+    }
+    
+    .but{
+        background-color: blue;
+    }
+    
+    .product-heading{
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .whatsApp_icon{
+        height: 60px;
+        width: 60px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .facebook_icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .instagram_icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .twitter_icon{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .email-icon{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    
+    
+    .nav-item{
+        padding: 10px;
+    }
+    
+    .nav-item:hover{
+        background-color: white;
+        transform: scale(1.05);
+        color: #fff;
+        font-weight: 900;
+    }
+    /* .nav-link{
+        color: white !important;
+    } */
+    
+    /* .nav-link:hover{
+        color: black !important;
+    } */
+    
+    .welcome{
+        /* background-color: rgba(110, 23, 190, 0.89); */
+        color: #fff;
+        /* border-radius: 15px; */
+    }
+    
+    .head1{
+        color: #fff;
+        font-size: 2rem;
+    }
+    
+    .map{
+        height: 300px ;
+        width: 315px ;
+               
+    } 
+    
+    .footer-bg{
+        background-color: black;
+    }
+    
+    .footer-links-above{
+        padding-left: 10%;
+        color: #fff;
+    }
+    
+    
+    .footer-links{
+        padding-left: 5%;
+        color: #fff;
+    }
+    
+    .text-white {
+        color: white !important;
+      }
+      
+      .text-white:hover{
+        background-color: white;
+        transform: scale(1.05);
+        color: black !important;
+        font-weight: 900;
+    }
+    
+    .kanit-extrabold {
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .intro-section{
+        width: 100vw; 
+        height: 100vh; 
+        background-color: rgba(101, 104, 194, 0.97);
+      }
+    
+      #jn-trading{
+        color: white;
+      }
+    
+    
+    
+      .intro-div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+    
+      .person-image{
+        float: right;
+        width: 250px;
+        height: 230px;
+        margin-left: 30px;
+        
+      }
+    
+      
+    .para1{
+        padding: 16px;
+        font-size: 16px;
+        font-weight: normal;
+    
+    }
+    
+    
+    .services-section{
+        width: 100vw; 
+        height: 1150px; 
+        background-color: rgba(101, 104, 194, 0.97);
+      }
+    
+      .services-cont{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* align-items: center; */
+        justify-content: center;
+        padding-bottom: 10px;
+        min-height: 1100px; 
+        gap: 20px;
+        color: #fff;
+        margin-bottom: 50px;
+        /* overflow-y: auto; */
+      }
+    
+      .ser-img{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-left: 5%; */
+        
+      }
+    
+      #ser-head{
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
+      }
+    
+      
+      .services{
+        width: 150px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        text-align: center;
+        background-color: red;
+        border-radius: 15px;
+        
+      }
+
+
+
+      #ser-image{
+        margin-top: 10%;
+      }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 999px){
+    
+    .services-section{
+        width: 100%; 
+        height: 115vh; 
+        background-color: rgba(101, 104, 194, 0.97);
+      }
+
+      .style-h1{
+        color: white;
+        font-size: 5rem;
+        font-weight: 900;
+    }
+
+      .caro-text{
+        margin-bottom: 20rem;
+      }
+
+      .person-image{
+        margin-top: 10rem;
+        float: right;
+        width: 350px;
+        height: 400px;
+        padding-right: 10%;
+      }
+
+      
+
+      .footer-links-above{
+        padding-left: 10%;
+        color: #fff;
+    }
+
+    .intro-section{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(101, 104, 194, 0.97);
+      }
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1300px){
+    
+    .services-section{
+        width: 100vw; 
+        height: 120vh; 
+        background-color: rgba(101, 104, 194, 0.97);
+      }
+}
